@@ -12,7 +12,8 @@ public class Main {
         for (int i = 0; i < array.length; i++) {
             if (minArray > array[i]){
                 minArray = array[i];
-            } else if (maxArray < array[i]) {
+            }
+             if (maxArray < array[i]) {
                 maxArray = array[i];
             }
             System.out.println("Минимальная сумма трат за день составила " + minArray + " рублей. Максимальная  сумма трат за день составила " + maxArray + " рублей");
